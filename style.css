@@ -1,0 +1,93 @@
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+ul li{
+    padding: 5px;
+    margin: 0 10px;
+    color: rgba(0, 0, 0, 0.325);
+}
+
+ul li select{
+    border: none;
+    color: rgba(0, 0, 0, 0.325);
+}
+
+.bodyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoMain{
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.title{
+    margin-top: 120px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.mainContent{
+    display: flex;
+    margin-top: -50px;
+}
+
+.speed{
+    font-size: 300px;
+    display: flex;
+}
+
+.speed2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.unit{
+    padding-top: 55px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.logoSpeed{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.logoSpeed img{
+    width: 60px;
+}
+
+.inputBlock input{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #00000042;
+    font-size: 16px;
+}
+
+.icon{
+    margin-top: 70px;
+    display: flex;
+}
+.icon i {
+    font-size: 40px; 
+}
+
+.icon span{
+    margin: 0 15px
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.footer img{
+    width: 40px;
+    height: 40px;
+}
